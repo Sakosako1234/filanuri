@@ -1,0 +1,154 @@
+header{
+    background-color: #ffcc00;
+    width: 100%;
+    height: 170px;
+    font-size: 16px;
+    padding-top: 30px;
+}
+#logo{
+    width: 200px;
+    height: 150px;
+}
+nav{
+    background-color: #ffcc00;
+}
+a{
+    margin: 10px;
+    display: inline-block;
+    margin-right: 20px;
+}
+#dropdown{
+    background-color: #ffcc00;
+    color: white;
+    width: 140px;
+    display: none;
+    z-index: 10;
+    position: absolute;
+}
+
+.drop{
+    position: relative;
+}
+.option{
+    background-color: #ffcc00;
+    margin: 10px;
+}
+.option:hover{
+    background-color: rgb(240, 240,147);
+}
+.drop:hover #dropdown{
+    display: block;
+}
+
+#container_back{
+    z-index: 2;
+    width: 100%;
+    position: relative;
+}
+#tys{
+    z-index: 5;
+    color: white;
+    position: absolute;
+    bottom:300px;
+    left:500px;
+    font-size: 25px;
+}
+input{
+    height: 30px;
+    left: 100px;
+    margin-left: 400px;
+    bottom:250px;
+    position: absolute;
+    z-index: 5;
+    width: 250px;
+    text-align: justify;
+}
+header button{
+    background-color: #ffcc00;
+    border: none;
+    margin: 10px;
+    display: inline-block;
+    margin-right: 20px;
+}
+#trackbutton{
+    color: white;
+    background-color: red;
+    position: absolute;
+    z-index: 5; 
+    padding: 10px;
+    border-radius: 5px;
+    border:1px solid black;
+    left: 760px;
+    bottom:250px;
+}
+.blocks{
+    width: 300px;
+    height: 150px;
+    border: 2px solid rgb(189, 185, 185);
+    border-radius: 5px;
+    background-color: rgb(241, 238, 238);
+    bottom: 35px;
+    left:150px;
+    top:5px;
+    display: inline-block;
+    text-align: center;
+    z-index: 5;
+    color: rgb(136, 4, 4);
+    padding: 10px;
+    position: relative;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48;
+    color: rgb(136, 4, 4);
+}
+#login-portal{
+    top:25px;
+}
+#block_section{
+    bottom: 80px;
+    position: relative;
+}
+.block2{
+    width:32%;
+    height: 350px;
+    margin-left: 5px;
+    border: 2px solid rgb(189, 185, 185);
+    border-radius: 5px;
+    display: inline-block;
+    text-align: start;
+}
+#bottom{
+    text-align: center;
+}
+#rise{
+    padding-top: 38px;
+}
+.block2 p{
+    color: rgb(136, 4, 4);
+}
+footer{
+    background-color: rgb(212, 208, 208);
+    color:rgb(71, 70, 70);
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+h6{
+    display: inline-block;
+    margin:10px;
+}
+footer h5{
+    color: black;
+}
+h6, h5{
+    margin-left: 10px;
+}
+#lasttext{
+    color: rgb(71, 70, 70);
+    text-align: center;
+}
