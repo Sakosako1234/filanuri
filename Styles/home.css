@@ -18,7 +18,6 @@ a{
     margin-right: 20px;
 }
 #dropdown{
-    background-color: #ffcc00;
     color: white;
     width: 140px;
     display: none;
@@ -31,7 +30,7 @@ a{
 }
 .option{
     background-color: #ffcc00;
-    margin: 10px;
+    margin-right: 40px;
 }
 .option:hover{
     background-color: rgb(240, 240,147);
